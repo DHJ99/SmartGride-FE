@@ -1,7 +1,2 @@
-import type { Config } from "@react-router/dev/config";
-
-export default {
-  // Config options...
-  // Server-side render by default, to enable SPA mode set this to `false`
-  ssr: true,
-} satisfies Config;
+// Remove: import type { Config } from "@react-router/dev/config";
+// This file is not needed for react-router-dom v7+; configuration is handled in your App or router setup.
